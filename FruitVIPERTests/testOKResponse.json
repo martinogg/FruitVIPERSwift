@@ -1,0 +1,9 @@
+{
+    "fruit":[
+             {"fruitname":"apple", "price":11, "weight":12},
+             {"fruitname":"banana", "price":22, "weight":34},
+             {"fruitname":"blueberry", "price":33, "weight":56},
+             {"fruitname":"pear", "price":445, "weight":78},
+             {"fruitname":"strawberry", "price":6, "weight":90},
+             ]
+}

@@ -7,73 +7,390 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EEDD227A202F29E700748F91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDD2279202F29E700748F91 /* AppDelegate.swift */; };
-		EEDD227C202F29E700748F91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDD227B202F29E700748F91 /* ViewController.swift */; };
-		EEDD227F202F29E700748F91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEDD227D202F29E700748F91 /* Main.storyboard */; };
-		EEDD2281202F29E700748F91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEDD2280202F29E700748F91 /* Assets.xcassets */; };
-		EEDD2284202F29E700748F91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEDD2282202F29E700748F91 /* LaunchScreen.storyboard */; };
+		4101A04C19C1206E08DCB3E4 /* Pods_FruitVIPERTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6177AD5DF0D3FDAEF84E4B76 /* Pods_FruitVIPERTests.framework */; };
+		C6750D423CF90C5BFE48E3E4 /* Pods_FruitVIPER.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 924B8ABB7DC938EEBC9B7198 /* Pods_FruitVIPER.framework */; };
+		EED2BFCF202F34020026DBBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED2BFCE202F34020026DBBF /* AppDelegate.swift */; };
+		EED2BFD1202F34020026DBBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED2BFD0202F34020026DBBF /* ViewController.swift */; };
+		EED2BFD4202F34020026DBBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EED2BFD2202F34020026DBBF /* Main.storyboard */; };
+		EED2BFD9202F34020026DBBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EED2BFD7202F34020026DBBF /* LaunchScreen.storyboard */; };
+		EED2BFFA2030697D0026DBBF /* FruitListWireFrameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED2BFEE2030697C0026DBBF /* FruitListWireFrameTests.swift */; };
+		EED2BFFB2030697D0026DBBF /* FruitDetailInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED2BFEF2030697C0026DBBF /* FruitDetailInteractorTests.swift */; };
+		EED2BFFC2030697D0026DBBF /* FruitListPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED2BFF02030697C0026DBBF /* FruitListPresenterTests.swift */; };
+		EED2BFFD2030697D0026DBBF /* testBADResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = EED2BFF12030697C0026DBBF /* testBADResponse.json */; };
+		EED2BFFE2030697D0026DBBF /* FruitDetailViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED2BFF22030697C0026DBBF /* FruitDetailViewTests.swift */; };
+		EED2BFFF2030697D0026DBBF /* FruitListAPIDataManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED2BFF32030697C0026DBBF /* FruitListAPIDataManagerTests.swift */; };
+		EED2C0002030697D0026DBBF /* FruitListInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED2BFF42030697C0026DBBF /* FruitListInteractorTests.swift */; };
+		EED2C0012030697D0026DBBF /* FruitVIPERTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED2BFF52030697C0026DBBF /* FruitVIPERTests.swift */; };
+		EED2C0022030697D0026DBBF /* FruitDetailWireFrameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED2BFF62030697C0026DBBF /* FruitDetailWireFrameTests.swift */; };
+		EED2C0032030697D0026DBBF /* FruitListViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED2BFF72030697D0026DBBF /* FruitListViewTests.swift */; };
+		EED2C0042030697D0026DBBF /* testOKResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = EED2BFF82030697D0026DBBF /* testOKResponse.json */; };
+		EED2C0052030697D0026DBBF /* FruitDetailPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED2BFF92030697D0026DBBF /* FruitDetailPresenterTests.swift */; };
+		EED2C030203069990026DBBF /* APIDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED2C008203069980026DBBF /* APIDataManager.swift */; };
+		EED2C031203069990026DBBF /* CommonProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED2C00A203069980026DBBF /* CommonProtocols.swift */; };
+		EED2C032203069990026DBBF /* Fruit.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED2C00C203069980026DBBF /* Fruit.swift */; };
+		EED2C033203069990026DBBF /* FruitAPIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED2C00D203069980026DBBF /* FruitAPIResponse.swift */; };
+		EED2C034203069990026DBBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EED2C00F203069980026DBBF /* LaunchScreen.storyboard */; };
+		EED2C035203069990026DBBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EED2C011203069980026DBBF /* Main.storyboard */; };
+		EED2C036203069990026DBBF /* FruitListLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED2C016203069980026DBBF /* FruitListLocalDataManager.swift */; };
+		EED2C037203069990026DBBF /* FruitListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED2C019203069980026DBBF /* FruitListPresenter.swift */; };
+		EED2C038203069990026DBBF /* FruitListWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED2C01B203069980026DBBF /* FruitListWireFrame.swift */; };
+		EED2C039203069990026DBBF /* FruitListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED2C01D203069980026DBBF /* FruitListView.swift */; };
+		EED2C03A203069990026DBBF /* FruitListProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED2C01F203069980026DBBF /* FruitListProtocols.swift */; };
+		EED2C03B203069990026DBBF /* FruitListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED2C021203069980026DBBF /* FruitListInteractor.swift */; };
+		EED2C03C203069990026DBBF /* FruitListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED2C022203069980026DBBF /* FruitListItem.swift */; };
+		EED2C03D203069990026DBBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EED2C023203069980026DBBF /* Assets.xcassets */; };
+		EED2C03E203069990026DBBF /* FruitDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED2C026203069980026DBBF /* FruitDetailPresenter.swift */; };
+		EED2C03F203069990026DBBF /* FruitDetailWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED2C028203069980026DBBF /* FruitDetailWireFrame.swift */; };
+		EED2C040203069990026DBBF /* FruitDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED2C02A203069980026DBBF /* FruitDetailView.swift */; };
+		EED2C041203069990026DBBF /* FruitDetailProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED2C02C203069980026DBBF /* FruitDetailProtocols.swift */; };
+		EED2C042203069990026DBBF /* FruitDetailItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED2C02E203069980026DBBF /* FruitDetailItem.swift */; };
+		EED2C043203069990026DBBF /* FruitDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED2C02F203069980026DBBF /* FruitDetailInteractor.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		EED2BFE0202F34030026DBBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EED2BFC3202F34020026DBBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EED2BFCA202F34020026DBBF;
+			remoteInfo = FruitVIPER;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		EEDD2276202F29E700748F91 /* FruitVIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FruitVIPER.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EEDD2279202F29E700748F91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EEDD227B202F29E700748F91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EEDD227E202F29E700748F91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EEDD2280202F29E700748F91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EEDD2283202F29E700748F91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		EEDD2285202F29E700748F91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E3D79263D660DC9D0442945 /* Pods-FruitVIPER.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FruitVIPER.release.xcconfig"; path = "Pods/Target Support Files/Pods-FruitVIPER/Pods-FruitVIPER.release.xcconfig"; sourceTree = "<group>"; };
+		352B5ED8D8210A677DBECA54 /* Pods-FruitVIPER.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FruitVIPER.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FruitVIPER/Pods-FruitVIPER.debug.xcconfig"; sourceTree = "<group>"; };
+		6177AD5DF0D3FDAEF84E4B76 /* Pods_FruitVIPERTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FruitVIPERTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		924B8ABB7DC938EEBC9B7198 /* Pods_FruitVIPER.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FruitVIPER.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A91498F42C43FAE6D964F509 /* Pods-FruitVIPERTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FruitVIPERTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FruitVIPERTests/Pods-FruitVIPERTests.release.xcconfig"; sourceTree = "<group>"; };
+		B22F5D4565FA4C5E0A2A79D3 /* Pods-FruitVIPERTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FruitVIPERTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FruitVIPERTests/Pods-FruitVIPERTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EED2BFCB202F34020026DBBF /* FruitVIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FruitVIPER.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EED2BFCE202F34020026DBBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EED2BFD0202F34020026DBBF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EED2BFD3202F34020026DBBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EED2BFD8202F34020026DBBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EED2BFDA202F34020026DBBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EED2BFDF202F34030026DBBF /* FruitVIPERTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FruitVIPERTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EED2BFE5202F34030026DBBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EED2BFEE2030697C0026DBBF /* FruitListWireFrameTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FruitListWireFrameTests.swift; sourceTree = "<group>"; };
+		EED2BFEF2030697C0026DBBF /* FruitDetailInteractorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FruitDetailInteractorTests.swift; sourceTree = "<group>"; };
+		EED2BFF02030697C0026DBBF /* FruitListPresenterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FruitListPresenterTests.swift; sourceTree = "<group>"; };
+		EED2BFF12030697C0026DBBF /* testBADResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = testBADResponse.json; sourceTree = "<group>"; };
+		EED2BFF22030697C0026DBBF /* FruitDetailViewTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FruitDetailViewTests.swift; sourceTree = "<group>"; };
+		EED2BFF32030697C0026DBBF /* FruitListAPIDataManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FruitListAPIDataManagerTests.swift; sourceTree = "<group>"; };
+		EED2BFF42030697C0026DBBF /* FruitListInteractorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FruitListInteractorTests.swift; sourceTree = "<group>"; };
+		EED2BFF52030697C0026DBBF /* FruitVIPERTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FruitVIPERTests.swift; sourceTree = "<group>"; };
+		EED2BFF62030697C0026DBBF /* FruitDetailWireFrameTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FruitDetailWireFrameTests.swift; sourceTree = "<group>"; };
+		EED2BFF72030697D0026DBBF /* FruitListViewTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FruitListViewTests.swift; sourceTree = "<group>"; };
+		EED2BFF82030697D0026DBBF /* testOKResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = testOKResponse.json; sourceTree = "<group>"; };
+		EED2BFF92030697D0026DBBF /* FruitDetailPresenterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FruitDetailPresenterTests.swift; sourceTree = "<group>"; };
+		EED2C008203069980026DBBF /* APIDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIDataManager.swift; sourceTree = "<group>"; };
+		EED2C00A203069980026DBBF /* CommonProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonProtocols.swift; sourceTree = "<group>"; };
+		EED2C00C203069980026DBBF /* Fruit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fruit.swift; sourceTree = "<group>"; };
+		EED2C00D203069980026DBBF /* FruitAPIResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FruitAPIResponse.swift; sourceTree = "<group>"; };
+		EED2C010203069980026DBBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EED2C012203069980026DBBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		EED2C016203069980026DBBF /* FruitListLocalDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FruitListLocalDataManager.swift; sourceTree = "<group>"; };
+		EED2C019203069980026DBBF /* FruitListPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FruitListPresenter.swift; sourceTree = "<group>"; };
+		EED2C01B203069980026DBBF /* FruitListWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FruitListWireFrame.swift; sourceTree = "<group>"; };
+		EED2C01D203069980026DBBF /* FruitListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FruitListView.swift; sourceTree = "<group>"; };
+		EED2C01F203069980026DBBF /* FruitListProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FruitListProtocols.swift; sourceTree = "<group>"; };
+		EED2C021203069980026DBBF /* FruitListInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FruitListInteractor.swift; sourceTree = "<group>"; };
+		EED2C022203069980026DBBF /* FruitListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FruitListItem.swift; sourceTree = "<group>"; };
+		EED2C023203069980026DBBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EED2C026203069980026DBBF /* FruitDetailPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FruitDetailPresenter.swift; sourceTree = "<group>"; };
+		EED2C028203069980026DBBF /* FruitDetailWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FruitDetailWireFrame.swift; sourceTree = "<group>"; };
+		EED2C02A203069980026DBBF /* FruitDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FruitDetailView.swift; sourceTree = "<group>"; };
+		EED2C02C203069980026DBBF /* FruitDetailProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FruitDetailProtocols.swift; sourceTree = "<group>"; };
+		EED2C02E203069980026DBBF /* FruitDetailItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FruitDetailItem.swift; sourceTree = "<group>"; };
+		EED2C02F203069980026DBBF /* FruitDetailInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FruitDetailInteractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EEDD2273202F29E700748F91 /* Frameworks */ = {
+		EED2BFC8202F34020026DBBF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6750D423CF90C5BFE48E3E4 /* Pods_FruitVIPER.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EED2BFDC202F34030026DBBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4101A04C19C1206E08DCB3E4 /* Pods_FruitVIPERTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EEDD226D202F29E700748F91 = {
+		36B2E7A769D79F0BF0ADBB38 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EEDD2278202F29E700748F91 /* FruitVIPER */,
-				EEDD2277202F29E700748F91 /* Products */,
+				924B8ABB7DC938EEBC9B7198 /* Pods_FruitVIPER.framework */,
+				6177AD5DF0D3FDAEF84E4B76 /* Pods_FruitVIPERTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4FEE30341DFE0D20485690CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				352B5ED8D8210A677DBECA54 /* Pods-FruitVIPER.debug.xcconfig */,
+				0E3D79263D660DC9D0442945 /* Pods-FruitVIPER.release.xcconfig */,
+				B22F5D4565FA4C5E0A2A79D3 /* Pods-FruitVIPERTests.debug.xcconfig */,
+				A91498F42C43FAE6D964F509 /* Pods-FruitVIPERTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EED2BFC2202F34020026DBBF = {
+			isa = PBXGroup;
+			children = (
+				EED2BFCD202F34020026DBBF /* FruitVIPER */,
+				EED2BFE2202F34030026DBBF /* FruitVIPERTests */,
+				EED2BFCC202F34020026DBBF /* Products */,
+				4FEE30341DFE0D20485690CE /* Pods */,
+				36B2E7A769D79F0BF0ADBB38 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		EEDD2277202F29E700748F91 /* Products */ = {
+		EED2BFCC202F34020026DBBF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EEDD2276202F29E700748F91 /* FruitVIPER.app */,
+				EED2BFCB202F34020026DBBF /* FruitVIPER.app */,
+				EED2BFDF202F34030026DBBF /* FruitVIPERTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EEDD2278202F29E700748F91 /* FruitVIPER */ = {
+		EED2BFCD202F34020026DBBF /* FruitVIPER */ = {
 			isa = PBXGroup;
 			children = (
-				EEDD2279202F29E700748F91 /* AppDelegate.swift */,
-				EEDD227B202F29E700748F91 /* ViewController.swift */,
-				EEDD227D202F29E700748F91 /* Main.storyboard */,
-				EEDD2280202F29E700748F91 /* Assets.xcassets */,
-				EEDD2282202F29E700748F91 /* LaunchScreen.storyboard */,
-				EEDD2285202F29E700748F91 /* Info.plist */,
+				EED2C023203069980026DBBF /* Assets.xcassets */,
+				EED2C00E203069980026DBBF /* Base.lproj */,
+				EED2C006203069980026DBBF /* Common */,
+				EED2C024203069980026DBBF /* FruitDetail */,
+				EED2C013203069980026DBBF /* FruitList */,
+				EED2BFCE202F34020026DBBF /* AppDelegate.swift */,
+				EED2BFD0202F34020026DBBF /* ViewController.swift */,
+				EED2BFD2202F34020026DBBF /* Main.storyboard */,
+				EED2BFD7202F34020026DBBF /* LaunchScreen.storyboard */,
+				EED2BFDA202F34020026DBBF /* Info.plist */,
 			);
 			path = FruitVIPER;
+			sourceTree = "<group>";
+		};
+		EED2BFE2202F34030026DBBF /* FruitVIPERTests */ = {
+			isa = PBXGroup;
+			children = (
+				EED2BFF52030697C0026DBBF /* FruitVIPERTests.swift */,
+				EED2BFEF2030697C0026DBBF /* FruitDetailInteractorTests.swift */,
+				EED2BFF92030697D0026DBBF /* FruitDetailPresenterTests.swift */,
+				EED2BFF22030697C0026DBBF /* FruitDetailViewTests.swift */,
+				EED2BFF62030697C0026DBBF /* FruitDetailWireFrameTests.swift */,
+				EED2BFF32030697C0026DBBF /* FruitListAPIDataManagerTests.swift */,
+				EED2BFF42030697C0026DBBF /* FruitListInteractorTests.swift */,
+				EED2BFF02030697C0026DBBF /* FruitListPresenterTests.swift */,
+				EED2BFF72030697D0026DBBF /* FruitListViewTests.swift */,
+				EED2BFEE2030697C0026DBBF /* FruitListWireFrameTests.swift */,
+				EED2BFF12030697C0026DBBF /* testBADResponse.json */,
+				EED2BFF82030697D0026DBBF /* testOKResponse.json */,
+				EED2BFE5202F34030026DBBF /* Info.plist */,
+			);
+			path = FruitVIPERTests;
+			sourceTree = "<group>";
+		};
+		EED2C006203069980026DBBF /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				EED2C007203069980026DBBF /* DataManager */,
+				EED2C009203069980026DBBF /* Protocols */,
+				EED2C00B203069980026DBBF /* Entities */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		EED2C007203069980026DBBF /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				EED2C008203069980026DBBF /* APIDataManager.swift */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		EED2C009203069980026DBBF /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				EED2C00A203069980026DBBF /* CommonProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		EED2C00B203069980026DBBF /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				EED2C00C203069980026DBBF /* Fruit.swift */,
+				EED2C00D203069980026DBBF /* FruitAPIResponse.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		EED2C00E203069980026DBBF /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				EED2C00F203069980026DBBF /* LaunchScreen.storyboard */,
+				EED2C011203069980026DBBF /* Main.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		EED2C013203069980026DBBF /* FruitList */ = {
+			isa = PBXGroup;
+			children = (
+				EED2C014203069980026DBBF /* DataManager */,
+				EED2C018203069980026DBBF /* Presenter */,
+				EED2C01A203069980026DBBF /* WireFrame */,
+				EED2C01C203069980026DBBF /* View */,
+				EED2C01E203069980026DBBF /* Protocols */,
+				EED2C020203069980026DBBF /* Interactor */,
+			);
+			path = FruitList;
+			sourceTree = "<group>";
+		};
+		EED2C014203069980026DBBF /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				EED2C015203069980026DBBF /* Local */,
+				EED2C017203069980026DBBF /* API */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		EED2C015203069980026DBBF /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				EED2C016203069980026DBBF /* FruitListLocalDataManager.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		EED2C017203069980026DBBF /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		EED2C018203069980026DBBF /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				EED2C019203069980026DBBF /* FruitListPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		EED2C01A203069980026DBBF /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				EED2C01B203069980026DBBF /* FruitListWireFrame.swift */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		EED2C01C203069980026DBBF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EED2C01D203069980026DBBF /* FruitListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EED2C01E203069980026DBBF /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				EED2C01F203069980026DBBF /* FruitListProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		EED2C020203069980026DBBF /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				EED2C021203069980026DBBF /* FruitListInteractor.swift */,
+				EED2C022203069980026DBBF /* FruitListItem.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		EED2C024203069980026DBBF /* FruitDetail */ = {
+			isa = PBXGroup;
+			children = (
+				EED2C025203069980026DBBF /* Presenter */,
+				EED2C027203069980026DBBF /* WireFrame */,
+				EED2C029203069980026DBBF /* View */,
+				EED2C02B203069980026DBBF /* Protocols */,
+				EED2C02D203069980026DBBF /* Interactor */,
+			);
+			path = FruitDetail;
+			sourceTree = "<group>";
+		};
+		EED2C025203069980026DBBF /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				EED2C026203069980026DBBF /* FruitDetailPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		EED2C027203069980026DBBF /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				EED2C028203069980026DBBF /* FruitDetailWireFrame.swift */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		EED2C029203069980026DBBF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EED2C02A203069980026DBBF /* FruitDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EED2C02B203069980026DBBF /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				EED2C02C203069980026DBBF /* FruitDetailProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		EED2C02D203069980026DBBF /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				EED2C02E203069980026DBBF /* FruitDetailItem.swift */,
+				EED2C02F203069980026DBBF /* FruitDetailInteractor.swift */,
+			);
+			path = Interactor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EEDD2275202F29E700748F91 /* FruitVIPER */ = {
+		EED2BFCA202F34020026DBBF /* FruitVIPER */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EEDD2288202F29E700748F91 /* Build configuration list for PBXNativeTarget "FruitVIPER" */;
+			buildConfigurationList = EED2BFE8202F34030026DBBF /* Build configuration list for PBXNativeTarget "FruitVIPER" */;
 			buildPhases = (
-				EEDD2272202F29E700748F91 /* Sources */,
-				EEDD2273202F29E700748F91 /* Frameworks */,
-				EEDD2274202F29E700748F91 /* Resources */,
+				CD0C25873C0ED843629994CD /* [CP] Check Pods Manifest.lock */,
+				EED2BFC7202F34020026DBBF /* Sources */,
+				EED2BFC8202F34020026DBBF /* Frameworks */,
+				EED2BFC9202F34020026DBBF /* Resources */,
+				AC738042EB9FC5E02E3101E8 /* [CP] Embed Pods Frameworks */,
+				A7FB895056CC410822AD4C01 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -81,26 +398,52 @@
 			);
 			name = FruitVIPER;
 			productName = FruitVIPER;
-			productReference = EEDD2276202F29E700748F91 /* FruitVIPER.app */;
+			productReference = EED2BFCB202F34020026DBBF /* FruitVIPER.app */;
 			productType = "com.apple.product-type.application";
+		};
+		EED2BFDE202F34030026DBBF /* FruitVIPERTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EED2BFEB202F34030026DBBF /* Build configuration list for PBXNativeTarget "FruitVIPERTests" */;
+			buildPhases = (
+				EF0421ABCA2CC5C117DFA01D /* [CP] Check Pods Manifest.lock */,
+				EED2BFDB202F34030026DBBF /* Sources */,
+				EED2BFDC202F34030026DBBF /* Frameworks */,
+				EED2BFDD202F34030026DBBF /* Resources */,
+				1E2EEE8091DF70E42E12816D /* [CP] Embed Pods Frameworks */,
+				7D6E40F8C82FB72EBD985777 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EED2BFE1202F34030026DBBF /* PBXTargetDependency */,
+			);
+			name = FruitVIPERTests;
+			productName = FruitVIPERTests;
+			productReference = EED2BFDF202F34030026DBBF /* FruitVIPERTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EEDD226E202F29E700748F91 /* Project object */ = {
+		EED2BFC3202F34020026DBBF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0910;
 				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = martinogg;
 				TargetAttributes = {
-					EEDD2275202F29E700748F91 = {
+					EED2BFCA202F34020026DBBF = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
 					};
+					EED2BFDE202F34030026DBBF = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EED2BFCA202F34020026DBBF;
+					};
 				};
 			};
-			buildConfigurationList = EEDD2271202F29E700748F91 /* Build configuration list for PBXProject "FruitVIPER" */;
+			buildConfigurationList = EED2BFC6202F34020026DBBF /* Build configuration list for PBXProject "FruitVIPER" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -108,62 +451,238 @@
 				en,
 				Base,
 			);
-			mainGroup = EEDD226D202F29E700748F91;
-			productRefGroup = EEDD2277202F29E700748F91 /* Products */;
+			mainGroup = EED2BFC2202F34020026DBBF;
+			productRefGroup = EED2BFCC202F34020026DBBF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EEDD2275202F29E700748F91 /* FruitVIPER */,
+				EED2BFCA202F34020026DBBF /* FruitVIPER */,
+				EED2BFDE202F34030026DBBF /* FruitVIPERTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		EEDD2274202F29E700748F91 /* Resources */ = {
+		EED2BFC9202F34020026DBBF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEDD2284202F29E700748F91 /* LaunchScreen.storyboard in Resources */,
-				EEDD2281202F29E700748F91 /* Assets.xcassets in Resources */,
-				EEDD227F202F29E700748F91 /* Main.storyboard in Resources */,
+				EED2BFD9202F34020026DBBF /* LaunchScreen.storyboard in Resources */,
+				EED2C035203069990026DBBF /* Main.storyboard in Resources */,
+				EED2C034203069990026DBBF /* LaunchScreen.storyboard in Resources */,
+				EED2C03D203069990026DBBF /* Assets.xcassets in Resources */,
+				EED2BFD4202F34020026DBBF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EED2BFDD202F34030026DBBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EED2C0042030697D0026DBBF /* testOKResponse.json in Resources */,
+				EED2BFFD2030697D0026DBBF /* testBADResponse.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1E2EEE8091DF70E42E12816D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FruitVIPERTests/Pods-FruitVIPERTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D6E40F8C82FB72EBD985777 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FruitVIPERTests/Pods-FruitVIPERTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7FB895056CC410822AD4C01 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FruitVIPER/Pods-FruitVIPER-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC738042EB9FC5E02E3101E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FruitVIPER/Pods-FruitVIPER-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FruitVIPER/Pods-FruitVIPER-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD0C25873C0ED843629994CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FruitVIPER-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF0421ABCA2CC5C117DFA01D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FruitVIPERTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		EEDD2272202F29E700748F91 /* Sources */ = {
+		EED2BFC7202F34020026DBBF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEDD227C202F29E700748F91 /* ViewController.swift in Sources */,
-				EEDD227A202F29E700748F91 /* AppDelegate.swift in Sources */,
+				EED2C03F203069990026DBBF /* FruitDetailWireFrame.swift in Sources */,
+				EED2C041203069990026DBBF /* FruitDetailProtocols.swift in Sources */,
+				EED2C032203069990026DBBF /* Fruit.swift in Sources */,
+				EED2C043203069990026DBBF /* FruitDetailInteractor.swift in Sources */,
+				EED2C037203069990026DBBF /* FruitListPresenter.swift in Sources */,
+				EED2C036203069990026DBBF /* FruitListLocalDataManager.swift in Sources */,
+				EED2C039203069990026DBBF /* FruitListView.swift in Sources */,
+				EED2C042203069990026DBBF /* FruitDetailItem.swift in Sources */,
+				EED2C03C203069990026DBBF /* FruitListItem.swift in Sources */,
+				EED2BFD1202F34020026DBBF /* ViewController.swift in Sources */,
+				EED2C03B203069990026DBBF /* FruitListInteractor.swift in Sources */,
+				EED2C040203069990026DBBF /* FruitDetailView.swift in Sources */,
+				EED2C030203069990026DBBF /* APIDataManager.swift in Sources */,
+				EED2C03A203069990026DBBF /* FruitListProtocols.swift in Sources */,
+				EED2C031203069990026DBBF /* CommonProtocols.swift in Sources */,
+				EED2C033203069990026DBBF /* FruitAPIResponse.swift in Sources */,
+				EED2C038203069990026DBBF /* FruitListWireFrame.swift in Sources */,
+				EED2C03E203069990026DBBF /* FruitDetailPresenter.swift in Sources */,
+				EED2BFCF202F34020026DBBF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EED2BFDB202F34030026DBBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EED2C0002030697D0026DBBF /* FruitListInteractorTests.swift in Sources */,
+				EED2C0022030697D0026DBBF /* FruitDetailWireFrameTests.swift in Sources */,
+				EED2BFFC2030697D0026DBBF /* FruitListPresenterTests.swift in Sources */,
+				EED2BFFA2030697D0026DBBF /* FruitListWireFrameTests.swift in Sources */,
+				EED2C0032030697D0026DBBF /* FruitListViewTests.swift in Sources */,
+				EED2BFFE2030697D0026DBBF /* FruitDetailViewTests.swift in Sources */,
+				EED2C0052030697D0026DBBF /* FruitDetailPresenterTests.swift in Sources */,
+				EED2BFFB2030697D0026DBBF /* FruitDetailInteractorTests.swift in Sources */,
+				EED2BFFF2030697D0026DBBF /* FruitListAPIDataManagerTests.swift in Sources */,
+				EED2C0012030697D0026DBBF /* FruitVIPERTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		EED2BFE1202F34030026DBBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EED2BFCA202F34020026DBBF /* FruitVIPER */;
+			targetProxy = EED2BFE0202F34030026DBBF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
-		EEDD227D202F29E700748F91 /* Main.storyboard */ = {
+		EED2BFD2202F34020026DBBF /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EEDD227E202F29E700748F91 /* Base */,
+				EED2BFD3202F34020026DBBF /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		EEDD2282202F29E700748F91 /* LaunchScreen.storyboard */ = {
+		EED2BFD7202F34020026DBBF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EEDD2283202F29E700748F91 /* Base */,
+				EED2BFD8202F34020026DBBF /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EED2C00F203069980026DBBF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EED2C010203069980026DBBF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EED2C011203069980026DBBF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EED2C012203069980026DBBF /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		EEDD2286202F29E700748F91 /* Debug */ = {
+		EED2BFE6202F34030026DBBF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -220,7 +739,7 @@
 			};
 			name = Debug;
 		};
-		EEDD2287202F29E700748F91 /* Release */ = {
+		EED2BFE7202F34030026DBBF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -270,8 +789,9 @@
 			};
 			name = Release;
 		};
-		EEDD2289202F29E700748F91 /* Debug */ = {
+		EED2BFE9202F34030026DBBF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 352B5ED8D8210A677DBECA54 /* Pods-FruitVIPER.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -284,8 +804,9 @@
 			};
 			name = Debug;
 		};
-		EEDD228A202F29E700748F91 /* Release */ = {
+		EED2BFEA202F34030026DBBF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E3D79263D660DC9D0442945 /* Pods-FruitVIPER.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,28 +819,71 @@
 			};
 			name = Release;
 		};
+		EED2BFEC202F34030026DBBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B22F5D4565FA4C5E0A2A79D3 /* Pods-FruitVIPERTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FruitVIPERTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.martinogg.FruitVIPERTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FruitVIPER.app/FruitVIPER";
+			};
+			name = Debug;
+		};
+		EED2BFED202F34030026DBBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A91498F42C43FAE6D964F509 /* Pods-FruitVIPERTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FruitVIPERTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.martinogg.FruitVIPERTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FruitVIPER.app/FruitVIPER";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EEDD2271202F29E700748F91 /* Build configuration list for PBXProject "FruitVIPER" */ = {
+		EED2BFC6202F34020026DBBF /* Build configuration list for PBXProject "FruitVIPER" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EEDD2286202F29E700748F91 /* Debug */,
-				EEDD2287202F29E700748F91 /* Release */,
+				EED2BFE6202F34030026DBBF /* Debug */,
+				EED2BFE7202F34030026DBBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EEDD2288202F29E700748F91 /* Build configuration list for PBXNativeTarget "FruitVIPER" */ = {
+		EED2BFE8202F34030026DBBF /* Build configuration list for PBXNativeTarget "FruitVIPER" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EEDD2289202F29E700748F91 /* Debug */,
-				EEDD228A202F29E700748F91 /* Release */,
+				EED2BFE9202F34030026DBBF /* Debug */,
+				EED2BFEA202F34030026DBBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EED2BFEB202F34030026DBBF /* Build configuration list for PBXNativeTarget "FruitVIPERTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EED2BFEC202F34030026DBBF /* Debug */,
+				EED2BFED202F34030026DBBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = EEDD226E202F29E700748F91 /* Project object */;
+	rootObject = EED2BFC3202F34020026DBBF /* Project object */;
 }

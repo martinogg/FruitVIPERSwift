@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  FruitVIPER
 //
-//  Created by martin ogg on 10/02/2018.
+//  Created by martin ogg on 07/02/2018.
 //  Copyright © 2018 martinogg. All rights reserved.
 //
 
@@ -16,6 +16,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let mainStoryboard = UIStoryboard(name: "Main", bundle: Bundle.main)
+        let navController = mainStoryboard.instantiateViewController(withIdentifier: "NavigationController")
+        
+        guard let view = navController.childViewControllers.first else {
+            fatalError()
+        }
+        
+        FruitListWireFrame.attachVIPERClasses(to: view as! FruitListView)
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.rootViewController = navController
+        window?.makeKeyAndVisible()
+        
         return true
     }
 
